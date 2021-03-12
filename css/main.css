@@ -9,11 +9,12 @@ html {
   box-sizing: inherit;
 }
 
-img{
-  width: 100%
+img {
+  width: 100%;
 }
 
 h1, h2 {
+  font-family: sans-serif;
   color: #5d8432;
   text-transform: uppercase;
 }
@@ -24,7 +25,8 @@ figcaption {
   text-align: center;
 }
 
-nav{
+nav {
+  font-family: sans-serif;
   font-size: 1.125rem;
   font-weight: bold;
 }
@@ -36,6 +38,11 @@ nav ol {
 nav a {
   color: #793284;
   text-decoration: none;
+}
+
+nav a:hover {
+  color: #b42885;
+  text-decoration: underline;
 }
 
 .intro {
